@@ -1,0 +1,54 @@
+# ==============================================================================
+# .gitignore — Order Management System (OMS) REST API
+# Configurado para a entrega formal do desafio técnico (README_DESAFIO.md)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Dependências, Build e Runtime
+# ------------------------------------------------------------------------------
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+
+# ------------------------------------------------------------------------------
+# 2. Segredos e Variáveis de Ambiente
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+# ------------------------------------------------------------------------------
+# 3. Editores, IDEs e Arquivos de Sistema Operacional
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ------------------------------------------------------------------------------
+# 4. Harnesses de IA, Diretrizes e Configurações de Agentes
+# (Pastas e diretrizes de IA locais que não fazem parte do repositório base)
+# ------------------------------------------------------------------------------
+.agents/
+.claude/
+.cursor/
+.gemini/
+ai/
+.cursorrules
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# ------------------------------------------------------------------------------
+# 5. Arquivos de Rascunho / Temporários e Artefatos Intermediários
+# (Garante que apenas a estrutura oficial exigida no README_DESAFIO.md seja comitada)
+# ------------------------------------------------------------------------------
+fdd-webhooks-notificacao-pedidos.md
+prd-webhooks-notificacao-pedidos.md
+docs/adrs/potential-adrs/
+docs/adrs/generated/
+docs/adrs/reports/
