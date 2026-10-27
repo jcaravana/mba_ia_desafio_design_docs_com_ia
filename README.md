@@ -143,7 +143,7 @@ A documentação foi estruturada para leitura progressiva, permitindo ao leitor 
 docs/
 ├── PRD.md                 # 1. Por que e o que? Requisitos de produto, personas e metricas
 ├── RFC.md                 # 2. Como propor? Arquitetura macro, trade-offs e questoes abertas
-├── HLD.md                 # 3. Visao de Sistema: Topologia, componentes e fluxo de dados
+├── HLD.md                 # 3. Visao de Sistema (Não obrigatório): Topologia, componentes e fluxo de dados
 ├── FDD.md                 # 4. Como construir? Contratos REST, matriz de erros e codigo
 ├── TRACKER.md             # 5. De onde veio? Diario de bordo e rastreabilidade cruzada
 └── adrs/                  # 6. Por que exatamente assim? Registros formais de decisao (MADR)
@@ -159,7 +159,7 @@ docs/
 ### Ordem Recomendada de Leitura:
 1. [docs/PRD.md](docs/PRD.md): Compreenda a dor dos clientes corporativos (Atlas, Max Distribuição, Nova Cargo), os objetivos quantitativos e o escopo aprovado.
 2. [docs/RFC.md](docs/RFC.md): Analise a proposta técnica submetida à equipe, as 3 alternativas descartadas e as questões abertas para discussão.
-3. [docs/HLD.md](docs/HLD.md): Visualize a topologia geral da solução, componentes e fluxos de dados do monólito modular.
+3. [docs/HLD.md](docs/HLD.md): (Não obrigatório) Visualize a topologia geral da solução, componentes e fluxos de dados do monólito modular.
 4. [docs/FDD.md](docs/FDD.md): Examine a especificação executável: os 5 contratos públicos, códigos `WEBHOOK_*` e os 6 ganchos de integração com a base de código existente.
 5. [docs/adrs/](docs/adrs/): Consulte as 6 decisões arquiteturais canônicas em padrão MADR com alternativas consideradas, prós/contras e links bidirecionais.
 6. [docs/TRACKER.md](docs/TRACKER.md): Confira a matriz de rastreabilidade comprovando a origem de 60 itens em `TRANSCRICAO.md` e em `CODIGO`.
